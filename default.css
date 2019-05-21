@@ -111,7 +111,7 @@ p {
     color: white;
     text-decoration: none;
     cursor: pointer;
-    margin: 0 0 0 0;
+    margin: auto;
 }
 
     .btn_nav:hover {
@@ -157,7 +157,7 @@ p {
 
 .search_bar {
     float: left;
-    height: auto;
+    height: 100%;
     width: auto;
     font-size: 150%;
     margin: 0 0 0 0;
@@ -168,6 +168,7 @@ p {
     color: white;
     border: none;
     background-color: rgba(255,255,255,0);
+    grid-column: 1/4;
 }
 
     .search_bar:hover {
@@ -189,6 +190,7 @@ p {
     height: 100%;
     font-size: 1em;
     float: right;
+    grid-column: 4;
 }
 .filter_btn {
     background-color: rgba(0, 114, 255,0);
@@ -257,12 +259,15 @@ p {
     bottom: 0;
     left: 0;
     background-color: #0072ff;
-    width: 80%;
-    padding-left: 10%;
-    padding-right: 10%;
+    width: 94%;
+    padding-left: 3%;
+    padding-right: 3%;
     padding-bottom: 1%;
     padding-top: 1%;
     vertical-align: bottom;
+    height: calc((10vh + 5vw) / 3);
+
+
 }
 /*FOOTER END*/
 
@@ -286,8 +291,8 @@ p {
 }
 
 .content_spacer {
-    padding-bottom: 8.5vh;
-    padding-top: 11vh;
+    padding-bottom: calc((10vh + 5vw) / 1.5);
+    padding-top: calc((10vh + 5vw) / 2);
 }
 /*DEFAULT CONTENT END*/
 
