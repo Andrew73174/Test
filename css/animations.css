@@ -1,0 +1,25 @@
+/*@keyframes colorchangemenu {
+  0% { background: powderblue }
+  100% { background: #0072ff }
+}*/
+
+/*@keyframes colorchangebg {
+  0% { background: white }
+  100% { background: powderblue }
+}*/
+
+/*@keyframes fade_in { 
+	0% {opacity:0;}
+	90% {opacity: 1;}
+}*/
+
+/*@keyframes move_up {
+	 0% {translate(0, 100)}
+	100%{translate(0, 0)} 
+}*/
+
+/*@keyframes scale_up {
+	0% {transform: scale(0);}
+	50% {transform: scale(0);}
+	100% {transform: scale(1);}	
+}*/
